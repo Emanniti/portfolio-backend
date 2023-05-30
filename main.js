@@ -14,6 +14,8 @@ app.use(cors(corsOptions));
 
 app.use('/', routes);
 
-app.listen(2020, () => {
+const port = process.env.PORT || 2020;
+
+app.listen(port, () => {
     console.log('server is listening on port 2020');
 });
