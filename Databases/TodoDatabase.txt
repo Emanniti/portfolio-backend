@@ -1,0 +1,6 @@
+Fare la cacca tutti i giorni-Bisogna fare la cacca tutti i giorni per essere in salute con il corpo e con la mente-False/
+Mamma mi deve 450 euro-Mia madre mi deve 450 euro ogni mese per i condizionatori-False/
+Regalo mio di francesca-Francesca deve dirmi il regalo che deve farmi-False/
+Devo prendere i taralli-Bisogna prendere i taralli da portare in ufficio per il mio compleanno-False/
+Spuntino-Devo fare lo spuntino giornaliero per la palestra-True/
+Palestra-Oggi devo andare in palestra e devo anche fare la visita con l'istruttore-True/
