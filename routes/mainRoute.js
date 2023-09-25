@@ -1,19 +1,11 @@
-const express = require('express'); //import express
+import express from 'express';
+import { getAllUsers, getUserById } from '../controllers/ProfiliController.js';
 
-// 1.
-const router  = express.Router(); 
+const router = express.Router();
 
-// NOME CONTROLLER
-const mainController = require('../controllers/mainController'); 
-const utentiController = require('../controllers/utentiController'); 
-const toDoController = require('../controllers/toDoController'); 
+router.get('/', getAllUsers);
+router.get('/login', getUserById);
 
-// TUTTI I PATH
-router.get('/test', mainController.test); 
-router.get('/getSteamGames', mainController.getSteamGames)
-router.get('/getSteamProfile', mainController.getSteamProfile)
-router.get('/getUtenti', utentiController.getUtenti)
-router.get('/salvaUtente', utentiController.salvaUtente)
-router.get('/getAllToDoList', toDoController.getToDos)
-// 4. 
-module.exports = router; // export to use in server.js
+// Potresti definire altre rotte come POST per createUser, PUT per updateUser, ecc.
+
+export default router;
